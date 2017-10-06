@@ -1,16 +1,11 @@
-# Shitpost Learner
+# Markov Learner
 
-shitpost /SCHIT-pohst/ - a comment that contains nothing of intended value, but at the
-same time is not intended to troll with.
-
-This script uses Markov chains to learn how to shitpost. Using a user-specified board,
+This script uses Markov chains to learn how to post. Using a user-specified board,
 this script trains a Markov chain on all posts on all pages of said board and generates
-shitposts on command. Also includes a random image from the same board. This doesn't
+post on command. Also includes a random image from the same board. This doesn't
 actually post to 4chan.
 
 This makes extensive use of 4chan's read-only JSON API.
-
-For a non-CLI version that runs in your browser, take a look at the [web branch](https://github.com/eon8ight/shitpost-learner/tree/web).
 
 # Dependencies
 
@@ -23,7 +18,7 @@ For a non-CLI version that runs in your browser, take a look at the [web branch]
 0. Install the required dependencies if you don't already have them.
 1. Run `./shitposter.py`.
 2. Enter a board to train on - ex. /a/, /b/, /co/, /tv/, etc.
-3. Once training is finished, hit enter to generate a shitpost.
+3. Once training is finished, hit enter to generate a post.
 
 The command `train` will re-train the Markov chain on the same board.
 
